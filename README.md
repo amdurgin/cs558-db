@@ -4,7 +4,8 @@ cs558-db
 This module exposes a constructor to the ClassDB object, which handles all 
 of the reading/writing entries in the db. It is built ontop of level.
 
-Usage: 
+Usage:
+
 '''javascript
 var classdb = require("cs558-db");
 
