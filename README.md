@@ -5,8 +5,7 @@ This module exposes a constructor to the ClassDB object, which handles all
 of the reading/writing entries in the db. It is built ontop of level.
 
 Usage:
-
-'''javascript
+```javascript
 var classdb = require("cs558-db");
 
 //create new ClassDB instance
@@ -58,4 +57,4 @@ db.verifyStudent("name", "password", function(err){
     //Student identity is verified.
   }
 });
-'''
+```
